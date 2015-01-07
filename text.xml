@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <Say>Hello Joe.</Say>
+    <Gather numDigits="1" action="twilio_demo/handlekey" method="POST">
+        <Say>Press 1 to record a message.</Say>
+    </Gather>
+</Response>
