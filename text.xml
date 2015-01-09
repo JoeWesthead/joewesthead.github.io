@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
-    <Say>Hello Joe.</Say>
-    <Gather numDigits="1" action="twilio_demo/handlekey" method="POST">
-        <Say>Press 1 to record a message.</Say>
-    </Gather>
+    <Say voice="man" language="en-gb">Thanks for calling Story Box. In a few moments you'll hear a beep, then you can start telling your story. When you're done, just hang up. So find a quiet room, don't move around too much and tell us your story. No need to be funny or smart. Just be any good. Here comes the beep!</Say>
+    <Record timeout="10" transcribe="true" maxLength="600" method="get" />
 </Response>
